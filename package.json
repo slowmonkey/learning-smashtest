@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webDriverPath1": "FOR /F \"tokens=*\" %g IN ('realpath ./webDriver') do SET WEB_DRIVER_PATH=%g",
-    "webDriverPath": "SET WEBDRIVERPATH=$(realpath ./webDriver)",
-    "test-webDriverPath": "npm run webDriverPath && npm run echo-webDriverPath",
-    "echo-webDriverPath": "echo %WEBDRIVERPATH%",
-    "test": "npm run webDriverPath && set PATH=%PATH%;%WEB_DRIVER_PATH% && npm run echo",
-    "echo": "echo %PATH%"
+    "test": "bash -c 'PATH=$PATH:webDrivers/ smashtest'"
   },
   "author": "",
   "license": "ISC",

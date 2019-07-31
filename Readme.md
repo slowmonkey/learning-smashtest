@@ -7,7 +7,7 @@ This project goes through the steps to set up smash test.
 3. Run `npm init` to set  up the npm project.
 4. Run `npm install smashtest --save-dev` to add smashtest to the project.
 5. Create `demo.smash` file as the demo smash test file.
-6. Update the npm test script in package.json to `node node_modules/smashtest/src/cli.js` 
+6. Update the npm test script in package.json to `bash -c 'PATH=$PATH:webDrivers/ smashtest'` 
 
 
 # Setting up the Selenium WebDrivers
