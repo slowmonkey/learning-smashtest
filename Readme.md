@@ -1,4 +1,6 @@
-This project goes through the steps to set up smash test.
+This project goes through the steps to set up [smash test](https://smashtest.io).
+
+[git-repo](https://github.com/smashtestio/smashtest)
 
 # Setup
 
