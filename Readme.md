@@ -19,3 +19,8 @@ In the smash test file add the `Open Chrome` line. If the Chrome web driver is n
 ## Firefox
 
 Copy the same steps as for Chrome but use `Open Firefox`
+
+# Useful findings.
+
+1. Run `smastest -s` skips running branches that passed in the previous run.
+2. In a CI/CD pipeline it's advisable to run `smashtest --no-debug` to ensure the test run ignores any `~`, `~~`, `$` characters left over from the test development.

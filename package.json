@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "bash -c 'PATH=$PATH:webDrivers/ smashtest'"
+    "test": "bash -c 'PATH=$PATH:webDrivers/ smashtest testFolder/*.smash testFolder/subFolder/*.smash'"
   },
   "author": "",
   "license": "ISC",
