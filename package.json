@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "smashtest": "^1.7.0"
+    "smashtest": "^1.8.2"
   }
 }
